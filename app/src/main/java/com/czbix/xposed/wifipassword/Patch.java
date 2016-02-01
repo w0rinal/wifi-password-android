@@ -158,7 +158,7 @@ public class Patch implements IXposedHookLoadPackage {
         }
 
         private void addRow(MethodHookParam param, int idPwd, ViewGroup group, final String ssid, final String pwd) {
-            XposedHelpers.callMethod(param.thisObject, "addRow", group, idPwd, getString(R.string.pw_hidden));
+            XposedHelpers.callMethod(param.thisObject, "addRow", group, idPwd, R.string.pw_hidden);
             final View view = group.getChildAt(group.getChildCount() - 1);
 
             view.setOnClickListener(new View.OnClickListener() {
