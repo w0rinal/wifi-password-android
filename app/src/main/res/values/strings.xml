@@ -5,5 +5,4 @@
     <string name="empty_password">N/A</string>
     <string name="app_title">WiFi Password</string>
     <string name="app_desc">View WiFi Password in WiFi Settings</string>
-    <string name="pw_hidden">Press to show</string>
 </resources>
